@@ -3,11 +3,11 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: path.join(__dirname, 'quadstore.js'),
+  entry: path.join(__dirname, 'utils.js'),
   output: {
     path: __dirname,
-    filename: 'quadstore.bundle.js',
-    library: 'quadstore',
+    filename: 'utils.bundle.js',
+    library: 'utils',
     libraryTarget: 'umd',
   },
   target: 'web',

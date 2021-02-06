@@ -40,5 +40,10 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/beautifulinteractions/node-quadstore",
-  "bugs": "https://github.com/beautifulinteractions/node-quadstore/issues"
+  "bugs": "https://github.com/beautifulinteractions/node-quadstore/issues",
+  "dependencies": {
+    "graphql-to-sparql": "^2.2.0",
+    "sparqlalgebrajs": "^2.4.0",
+    "sparqljson-to-tree": "^2.1.0"
+  }
 }
